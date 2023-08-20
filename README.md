@@ -57,3 +57,42 @@ To check remote URL:
 ```
 git remote -v
 ```
+
+
+To setup CI/CD pipeline in heroku we need 3 information:
+
+1.HEROKU_EMAIL=etamilselvan2710111996@gmail.com
+2.HEROKU_API_KEY=accdb4ec-c44d-406f-a0e2-c00eabf64ad1
+3.HEROKU_APP_NAME=
+
+
+Build Docker Image:
+
+```
+docker build -t <imagename>:<tagname>
+```
+
+> Note : Image name for docker must be lowercase
+
+
+To list docker image:
+
+```
+docker images
+```
+
+Run docker image:
+
+```
+docker run -p 5000:5000 -e PORT=5000
+```
+
+To check running container in docker:
+```
+docker ps
+```
+
+To stop docker container:
+```
+docker stop <container_id>
+```
