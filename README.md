@@ -9,17 +9,51 @@
 
 
 Creating conda environment:
-
 ```
-
 conda create -p venv python==3.7 -y
 ```
 
 To Activate Environment:
-
 ```
-
 conda activate venv/
 ```
 
+To add files to git:
+```
+git add .
+```
+or
 
+```
+git add <filename>
+```
+
+To ignore file or folder from git we can write name of file/folder in .gitignore file.
+
+To check the git status:
+
+```
+git status
+```
+
+To check all the version maintained by git:
+```
+git log
+```
+
+To create version/commit all changes by git:
+```
+git commit -m "message"
+```
+
+To send version/changes to github:
+
+```
+git push origin main
+```
+
+To check remote URL:
+
+```
+git remote -v
+```
