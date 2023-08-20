@@ -6,7 +6,7 @@
 2. [Heroku Account](https://signup.heroku.com/)
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT CLI](https://git-scm.com/downloads)
-
+5. [GIT Tutorial](https://git-scm.com/docs/gittutorial)
 
 Creating conda environment:
 ```
@@ -28,7 +28,7 @@ or
 git add <filename>
 ```
 
-To ignore file or folder from git we can write name of file/folder in .gitignore file.
+Note: To ignore file or folder from git we can write name of file/folder in .gitignore file.
 
 To check the git status:
 
